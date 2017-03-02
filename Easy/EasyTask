@@ -1,7 +1,20 @@
-There are various libraries which aid in biodiversity cleaning. Some of them are:
+There are various packages which aid in biodiversity cleaning. Some of them are:
 
 1. Taxize: 
 
 From the documentation:
 
->taxize allows users to search over many taxonomic data sources for species names (scientific and common) and download up and downstream taxonomic hierarchical information - among other things.
+taxize allows users to search over many taxonomic data sources for species names (scientific and common) and download up and downstream taxonomic hierarchical information - among other things.
+
+
+2. scrubr
+
+From the documenation:
+
+Used to clean biological occurrence records. Includes functionality for cleaning based on various aspects of spatial coordinates, unlikely values due to political 'centroids', coordinates based on where collections of specimens are held, and more.
+
+3. rgeospatialquality
+
+From the documentation:
+
+rgeospatialquality provides R native access to the methods of the Geospatial Data Quality REST API. With this API, users can perform some basic quality checks on the geospatial aspect of biodiversity data. See the link above for more information on the API rationale, development, methods and usage.
